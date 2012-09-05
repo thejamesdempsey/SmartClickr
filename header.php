@@ -11,13 +11,16 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 </head>
 <body>
-	<div id="mainContainer" class="container global">
-		<header class="container global">			
-			<h1>
-				<a href="#">Smart Clickr</a> 
-			</h1>
-			<nav id="menu">
-				<ul id="main-nav">
+	<!-- header -->
+	<header id="header_main">
+		<div class="header_wrapper">
+			<div class="header_container">
+<a href="#" title="Smart Clicker" class="">
+					<h1>Smart Clickr</h1>			
+				</a> 
+	</header>
+			<nav>
+				<ul class="nav">
 					<li>
 						<a href="features.php">Features</a>
 					</li>
@@ -30,7 +33,12 @@
 					<li>
 						<a href="login.php">Log In</a>
 					</li>
+					<!--<li>
+						<a href="login.php">Log Out</a>
+					</li>
+					<li>
+						<a id="back" href="index.php">Go back to SmartClickr.com</a>
+					</li>-->
 				</ul>
 			</nav><!-- end nav -->
-			<div class="clear"></div>
-		</header><!-- end header -->
+
