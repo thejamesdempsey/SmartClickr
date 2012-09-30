@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <head>
 	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" type="text/css" href="assets/styles/form.css" media="screen"> 
+	<link rel="stylesheet" type="text/css" href="assets/styles/form.css" media="screen">
+	
+	<script>
+		function displayResult(operatingSystem) {
+			document.getElementById("result").value = operatingSystem
+		}
+	</script>
+	 
 </head>
 <body>
+
 	<!-- begin main navigation -->
 	<div>
 		<nav>
@@ -18,7 +26,7 @@
 	<!-- begin question/answer container -->
 	<div >	
 		<!-- begin form -->
-		<form action="#" method="POST">	
+		<form name="responseForm" action="response-multiplechoice.php" method="POST" onsubmit="return validateResponse()">	
 			
 			<!-- begin question -->	
 			<fieldset>
@@ -31,14 +39,15 @@
 			</div>	
 					
 			<!-- begin response textarea -->
-			<fieldset id="answer-truefalse">
+			<fieldset id="answer-multiplechoice">
 				<label for="response" class="form-text">Response</label>
 				<ul>	
-					<li><label><input type="radio" name="operatingsystem"/> Windows</label></li>
-					<li><label><input type="radio" name="operatingsystem"/> Mac OSX</label></li>	
-					<li><label><input type="radio" name="operatingsystem"/> Linux</label></li>	
-					<li><label><input type="radio" name="operatingsystem"/> Chromium</label></li>	
+					<li><label><input type="radio" name="operatingSystem" value="Windows"/> Windows</label></li>
+					<li><label><input type="radio" name="operatingSystem" value="Mac OSX"/> Mac OSX</label></li>	
+					<li><label><input type="radio" name="operatingSystem" value="Linux"/> Linux</label></li>	
+					<li><label><input type="radio" name="operatingSystem" value="Chromium"/> Chromium</label></li>	
 				</ul>
+				
 			</fieldset>	<!-- end response textarea -->
 			
 			<div>
@@ -55,3 +64,7 @@
 	</div><!-- end question/answer container -->
 
 </body>
+<script>
+
+
+</script>

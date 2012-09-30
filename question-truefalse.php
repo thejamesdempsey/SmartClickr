@@ -18,7 +18,7 @@
 	<!-- begin question/answer container -->
 	<div >	
 		<!-- begin form -->
-		<form action="#" method="POST">	
+		<form action="response-truefalse.php" method="POST">	
 			
 			<!-- begin question -->	
 			<fieldset>
@@ -34,8 +34,8 @@
 			<fieldset id="answer-truefalse">
 				<label for="response" class="form-text">Answer</label>
 				<ul>	
-					<li><label><input type="radio" name="cars"/> True</label></li>
-					<li><label><input type="radio" name="cars"/> False</label></li>	
+					<li><label><input type="radio" name="cars" value="True"/> True</label></li>
+					<li><label><input type="radio" name="cars" value="False"/> False</label></li>	
 				</ul>
 			</fieldset>	<!-- end response textarea -->
 			

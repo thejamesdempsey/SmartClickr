@@ -8,6 +8,10 @@ body{
 	padding: 10px;
 }
 
+.hidden{
+	display: none;
+}
+
 ol li{
 	padding-bottom: 10px;
 }
