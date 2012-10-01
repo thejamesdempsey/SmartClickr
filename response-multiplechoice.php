@@ -12,6 +12,20 @@
 
 Your preferred operating system is: <?php echo $_POST["operatingSystem"];?></br></br>
 
+<?php
+	
+	$fileName = "multiplechoice.txt";
+	$fileHandle = fopen($fileName, 'a') or die("can't open file, bummer...");
+	
+	for ($counter = 1; $counter <= 1; $counter++) {
+		$stringData = $_POST["operatingSystem"] . "\n";
+	
+		fwrite($fileHandle, $stringData);
+	}
+	fclose($fileHandle);
+	 
+
+?>
 <ul>
 	<li>
 		<a href="question-multiplechoice.php">Return</a>

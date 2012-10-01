@@ -35,7 +35,7 @@
 			<!-- begin response textarea -->
 			<fieldset id="answer-freeresponse">
 				<label for="response" class="form-text">Response</label>
-					<textarea id="coffeeResponse" name="coffeeResponse" ></textarea>
+					<textarea id="coffeeResponse" name="coffeeResponse" placeholder="For example -- Starbucks Veranda Blend, room for cream and sugar"></textarea>
 					<p class="form-help">Please keep responses to 140 characters or less</p>
 			</fieldset>	<!-- end response textarea -->
 			

@@ -1,0 +1,2 @@
+Background: #C84C44
+text-shadow: #91261f 0 1px 0

@@ -14,6 +14,21 @@ You selected: <?php echo $_POST["cars"];?></br></br>
 
 The correct answer is: False
 
+
+<?php
+	
+	$fileName = "truefalse.txt";
+	$fileHandle = fopen($fileName, 'a') or die("can't open file, bummer...");
+	
+	for ($counter = 1; $counter <= 1; $counter++) {
+		$stringData = $_POST["cars"] . "\n";
+	
+		fwrite($fileHandle, $stringData);
+	}
+	fclose($fileHandle);
+	 
+
+?>
 <ul>
 	<li>
 		<a href="question-truefalse.php">Return</a>
