@@ -10,7 +10,7 @@
 <body>
 <h3>Response</h3>
 
-Your preferred operating system is: <?php echo $_POST["operatingSystem"];?></br></br>
+Your preferred operating system is: <?php echo $_GET["operatingSystem"];?></br></br>
 
 <?php
 	
@@ -18,8 +18,7 @@ Your preferred operating system is: <?php echo $_POST["operatingSystem"];?></br>
 	$fileHandle = fopen($fileName, 'a') or die("can't open file, bummer...");
 	
 	for ($counter = 1; $counter <= 1; $counter++) {
-		$stringData = $_POST["operatingSystem"] . "\n";
-	
+		$stringData  = $_GET["operatingSystem"] . "\n";
 		fwrite($fileHandle, $stringData);
 	}
 	fclose($fileHandle);

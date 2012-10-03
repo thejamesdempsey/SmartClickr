@@ -18,7 +18,7 @@
 	<!-- begin question/answer container -->
 	<div >	
 		<!-- begin form -->
-		<form action="response-truefalse.php" method="POST">	
+		<form action="response-truefalse.php" method="GET">	
 			
 			<!-- begin question -->	
 			<fieldset>

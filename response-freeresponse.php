@@ -10,7 +10,7 @@
 <body>
 <h3>Response</h3>
 
-<?php echo $_POST["coffeeResponse"];?></br></br>
+<?php echo $_GET["coffeeResponse"];?></br></br>
 
 <?php
 	
@@ -20,7 +20,7 @@
 	$fileHandle = fopen($fileName, 'a') or die("can't open file, bummer...");
 
 	for ($counter = 1; $counter <= 1; $counter++) {
-		$stringData = $_POST["coffeeResponse"] . "\n";
+		$stringData = $_GET["coffeeResponse"] . "\n";
 		
 	//	$arr = array(
 	//		"Author" => "Jimmy Dempsey",

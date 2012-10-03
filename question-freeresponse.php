@@ -20,7 +20,7 @@
 	<!-- begin question/answer container -->
 	<div >	
 		<!-- begin form -->
-		<form name="responseForm" action="response-freeresponse.php" method="POST" onsubmit="return validateForm()">	
+		<form name="responseForm" action="response-freeresponse.php" method="GET" onsubmit="return validateForm()">	
 			
 			<!-- begin question -->	
 			<fieldset>

@@ -10,7 +10,7 @@
 <body>
 <h3>Response</h3>
 
-You selected: <?php echo $_POST["cars"];?></br></br>
+You selected: <?php echo $_GET["cars"];?></br></br>
 
 The correct answer is: False
 
@@ -21,7 +21,7 @@ The correct answer is: False
 	$fileHandle = fopen($fileName, 'a') or die("can't open file, bummer...");
 	
 	for ($counter = 1; $counter <= 1; $counter++) {
-		$stringData = $_POST["cars"] . "\n";
+		$stringData = $_GET["cars"] . "\n";
 	
 		fwrite($fileHandle, $stringData);
 	}

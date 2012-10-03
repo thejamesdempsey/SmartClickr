@@ -26,7 +26,7 @@
 	<!-- begin question/answer container -->
 	<div >	
 		<!-- begin form -->
-		<form name="responseForm" action="response-multiplechoice.php" method="POST" onsubmit="return validateResponse()">	
+		<form name="responseForm" action="response-multiplechoice.php" method="GET" onsubmit="return validateResponse()">	
 			
 			<!-- begin question -->	
 			<fieldset>
