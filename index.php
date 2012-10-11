@@ -12,7 +12,7 @@
 </head>
 <body>
 
-	<h1 class="left">Sample Questions</h1>
+	<h1 class="left"><a href="index.php">SmartClickr</a></h1>
 	
 	<span class="right"><a class="fancybox" href="#login">log in</a></span>
 	<span class="right"><a href="signup.php">sign up</a></span>

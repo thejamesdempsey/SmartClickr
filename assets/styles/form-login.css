@@ -170,6 +170,7 @@ form span{
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
+	margin-top: 12px;
 }
 form span a{
 	font-size:12px;

@@ -10,29 +10,49 @@
 	
 </head>
 <!-- begin main navigation -->
-<div>
+
+<div class="wrapper">
+	<h1 class="left">Get started!</h1>
 	<nav>
 		<ul>
 			<li>
-				<a href="index.php">Return to Questions Menu</a>
+				<a class="right" href="index.php">Back to the homepage</a>
 			</li>
 		</ul>
 	<nav>
 </div><!-- end main navigation -->
-
-<div class="signup-wrapper">
-	<section class="signup-content">
+<hr>
+<div id="signup-container">
+<div id="signup-wrapper" class="wrapper">
+	
+	<section id="signup-content">
 		<form action="#" class="" id="signupForm">
 			<fieldset>
+				<span>
 				<label for="newEmail" class="form-text">Your Email Address</label> 
+				
 					<input id="newEmail" type="input" class="form-text" name="newEmail" title="Email Address" autocomplete="off"></input>
+					<div class="clear"></div>
+				</span>
+				<div class="clear"></div>
+				<span>
 					<label for="confirmEmail" class="form-text">Confirm Email Address</label> 
 						<input id="confirmEmail" type="input" class="form-text" name="confirmEmail" title="Email Address" autocomplete="off"></input>
+						<div class="clear"></div>
+				</span>
+				<span>		
 				<label for="newEmail">Your Password</label> 
 					<input id="newPassword" type="text" name="newPassword" class="form-text" title="Password"  autocomplete="off"></input>
+					<div class="clear"></div>
+				</span>	
+			</fieldset>
+			<hr>
+			<fieldset class="form-action">
+				<input type="submit" value="Submit" />
 			</fieldset>
 		</form>
 	</section>
+</div>
 </div>
 
 </body>
