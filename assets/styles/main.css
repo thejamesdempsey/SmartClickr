@@ -1,0 +1,62 @@
+body{
+	font-family: 'Lucida Grande','Lucida Sans Unicode', Helvetica, Arial, sans-serif; 
+	font-size: 1em;
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.clear{
+	clear: both;
+}
+.hidden{
+	display: none;
+}
+
+.right{
+	float: right;
+	margin-right: 2%;
+	margin-top: 4%;
+}
+
+.left{
+	float: left;
+}
+
+ol li{
+	padding-bottom: 10px;
+}
+
+ul{
+	padding: 0;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+form fieldset li label{
+	font-size: 1.10em;
+}
+
+nav li a {
+	text-decoration: none;
+}
+
+a:hover{
+	border-bottom: 1px dashed;
+}
+
+hr { 
+	border: solid #ddd; 
+	border-width: 1px 0 0; 
+	clear: both; 
+	margin: 22px 0 21px; 
+	height: 0; 
+}
+
+h4{
+	font-weight: normal;
+	font-size: 1.15em;
+}
