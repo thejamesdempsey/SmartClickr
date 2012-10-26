@@ -1,3 +1,6 @@
+
+/*var AM = require('./modules/account-manager');*/
+
 module.exports = function(app) {
 	
 	app.get('/', function(req, res){
@@ -33,7 +36,7 @@ module.exports = function(app) {
 		})
 	});
 	
-	app.post('/signup', function(req, res){
+	app.post('/login', function(req, res){
 		
 	});	
 	
@@ -86,7 +89,7 @@ module.exports = function(app) {
 			
 		});
 		
-		app.delete('/signup', function(req, res){
+		app.delete('/edit-polls', function(req, res){
 			
 		});
 		
@@ -105,9 +108,5 @@ module.exports = function(app) {
 		app.delete('/settings', function(req, res){
 			
 		});
-		
-	
-	
-
 	
 };
