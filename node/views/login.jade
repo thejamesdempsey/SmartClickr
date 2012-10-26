@@ -1,0 +1,26 @@
+include layout
+#login
+    #login-wrapper
+        form#loginForm(method='post', action='login')
+          h1
+            | Log in to access your account, or
+            
+            a#logFormSignup(href='/signup') 	sign up 
+            
+            | to create polls of your own.
+          hr
+          fieldset
+            span.field
+              input#userEmail.required.form-text(type='input', name='userEmail', placeholder='Email Address', autocomplete='off')
+              .clear
+            span.field.password
+              input#userPassword.required.form-text(type='text', name='userPassword', placeholder='Password', autocomplete='off')
+              a#reset(href='#') Forgot your password?
+              .clear
+          hr
+          fieldset
+            label#rememberLabel
+              input#rememberCheckBox(name='remember_me', type='checkbox')
+              | Remember me
+          fieldset.form-action
+            input#login_submit(type='submit', value='Submit →')

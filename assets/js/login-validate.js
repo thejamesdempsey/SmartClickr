@@ -19,7 +19,7 @@ validateForm = function($form) {
 	var emailVal = $("#userEmail").val();
 	// If email field is empty
 	if(emailVal == '') {
-		$("#userEmail").after('<label class="error">Please enter your email address</label>');
+		$("#userEmail").before('<label class="error">Whoops. You did not enter an email address</label>');
 		isValid = false;
 	}
 	
@@ -27,7 +27,7 @@ validateForm = function($form) {
 	var passwordToVal = $("#userPassword").val();
 	// If password field is empty
 	if(passwordToVal == '') {
-		$("#clear").after('<label class="error">Please enter your password</label>');
+		$("#userPassword").before('<label class="error">Uhh Ohh. You did not enter a password</label>');
 		isValid = false;			
 	}
 	

@@ -18,10 +18,10 @@
 		<h1>Log in to access your account, or <a href="signup">sign up</a> to create polls of your own.</h1>
 			<fieldset>
 				<span class="field">
-					<input id="userEmail" type="input" class="form-text" name="" title="Email Address" placeholder="Email Address" autocomplete="off"></input>
+					<input id="userEmail" type="input" class="required form-text" name="" title="Email Address" placeholder="Email Address" autocomplete="off"></input>
 				</span>
 				<span class="field password">
-					<input id="userPassword" type="text" name="" class="form-text" title="Password" placeholder="Password" autocomplete="off"></input>
+					<input id="userPassword" type="text" name="" class="required form-text" title="Password" placeholder="Password" autocomplete="off"></input>
 				</span>
 			</fieldset>
 			<fieldset class="form-action">
